@@ -1,16 +1,57 @@
-# flutter_bloc_implementation
+# Flutter BLoc Implementation
 
-A new Flutter project.
+[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-reason.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com)
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Introduction 📌
 
-A few resources to get you started if this is your first Flutter project:
+BLoC is one of things which can help us manage the state of the app in best way possible.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+I have tried implementing BLoC architecture in the default counter app and in the News app fetching data from the api.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technology Stack 🏁
+
+- [Flutter](https://flutter.dev/)
+- [Http](https://pub.dev/packages/http)
+- [Intl](https://pub.dev/packages/intl)
+
+## Why this Project? 🏃‍♂️
+
+My main goal behind creating this project was to learn how i can implement BLoC in a flutter project without actually using BLoC package
+
+The code for the counter app is commented and can be used by changing the main screen in the main.dart file and uncommenting the code.
+
+For this project, i have worked on various domains like:
+* State management with BLoC
+* Data fetching from an API
+* Ui for news page
+
+## 👀 Build Instructions 
+
+- Clone the Repository: `git clone https://github.com/harshkumarkhatri/BLoC-Implementation`
+- `cd` into the Repository: `cd BLoC-Implementation`
+- If you want to have a look at the project in web then you can follow the steps given below.
+  - Enable beta channel and enable web support:
+```
+$ flutter channel beta
+$ flutter upgrade
+$ flutter config --enable-web
+```
+- Check for the Devices configured for Flutter Web: `flutter devices`
+- Run the App in Release Mode: `flutter run`
+- Generate a Build: `flutter build apk --split-per-abi`
+
+## Snaps from the UI
+</p>
+<img src="Screenshots\1.jpg" height=400>
+<img src="Screenshots\2.jpg" height=400><img src="Screenshots\3.jpg" height=400>
+</p>
+
+
+## Contributors ✨
+
+- [Harsh Kumar Khatri](https://github.com/harshkumarkhatri)
