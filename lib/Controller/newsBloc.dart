@@ -37,8 +37,8 @@ class NewsBloc {
     var newsModel;
 
     try {
-      var response = await client
-          .get('http://newsapi.org/v2/everything?domains=wsj.com&apiKey=Key');
+      var response = await client.get(
+          'http://newsapi.org/v2/everything?domains=wsj.com&apiKey=c78c7c0c91a1486c89f009173c0d35d2');
       if (response.statusCode == 200) {
         var jsonString = response.body;
         var jsonMap = json.decode(jsonString);
